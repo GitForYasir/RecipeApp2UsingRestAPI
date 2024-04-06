@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/lightPink</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/recipe</item>
+        <item name="postSplashScreenTheme">@style/Theme.RecipeApp</item>
+    </style>
+    
+    <style name="Theme.RecipeApp" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
